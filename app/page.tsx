@@ -1,11 +1,9 @@
 import Link from "next/link";
 
-
 export default function Home() {
 return (
   <main className="mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center p-6">
     <h1 className="mb-6 text-3xl font-bold">Sistema de Produtos</h1>
-
 
     <div className="flex gap-4">
       <Link
@@ -14,7 +12,6 @@ return (
       >
         Ir para cadastro
       </Link>
-
 
       <Link
         href="/pesquisar"

@@ -13,7 +13,6 @@ return (
         Pesquisar produtos
       </Link>
     </div>
-
     <h1 className="mb-4 text-2xl font-bold">Cadastrar produto</h1>
     <FormProduto />
   </main>
